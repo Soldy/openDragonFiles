@@ -1,8 +1,7 @@
-
 'use strict'
 
 
-exports.jsBase = function(){
+exports.jsBase = function(parentIn){
     /*
      * @public 
      * @return {string}
@@ -16,6 +15,11 @@ exports.jsBase = function(){
      *
      */
     this.addProcesseer=function(func){};
+    /*
+     * @private 
+     * @var {object}
+     */
+    const openDragonFiles = parentIn;
     /*
      * @private 
      * @var {string}
@@ -40,7 +44,5 @@ exports.jsBase = function(){
      * @private 
      */
     let processer = function(){};
-
-
 }
 

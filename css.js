@@ -1,7 +1,7 @@
 'use strict'
 
 
-exports.cssBase = function(){
+exports.cssBase = function(parentIn){
     /*
      * @public 
      * @return {string}
@@ -15,6 +15,11 @@ exports.cssBase = function(){
      *
      */
     this.addProcesseer=function(func){};
+    /*
+     * @private 
+     * @var {object}
+     */
+    const openDragonFiles = parentIn;
     /*
      * @private 
      * @var {string}

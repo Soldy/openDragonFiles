@@ -2,7 +2,7 @@
 'use strict'
 
 
-exports.svgBase = function(){
+exports.svgBase = function(parentIn){
     /*
      * @public 
      * @return {string}
@@ -16,6 +16,11 @@ exports.svgBase = function(){
      *
      */
     this.addProcesseer=function(func){};
+    /*
+     * @private 
+     * @var {object}
+     */
+    const openDragonFiles = parentIn;
     /*
      * @private 
      * @var {string}
