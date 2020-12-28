@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 
 exports.htmlBase = function(parentIn){
@@ -24,7 +24,7 @@ exports.htmlBase = function(parentIn){
      * @private 
      * @var {string}
      */
-    let container = "";
+    let container = '';
     /*
      * @private 
      * @var {dictonary}
@@ -45,4 +45,4 @@ exports.htmlBase = function(parentIn){
      */
     let processer = function(){};
 
-}
+};
