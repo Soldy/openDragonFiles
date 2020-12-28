@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 const jsBase  = require('./js.js').jsBase;
 const cssBase = require('./css.js').cssBase;
@@ -12,28 +12,28 @@ exports.openDragonFilesBase = function(parentIn){
      */
     this.js = function(){
         return js;
-    }
+    };
     /*
      * @public 
      * @return {object}
      */
     this.css = function(){
         return css;
-    }
+    };
     /*
      * @public 
      * @return {object}
      */
     this.html = function(){
         return html;
-    }
+    };
     /*
      * @public 
      * @return {object}
      */
     this.svg = function(){
         return svg;
-    }
+    };
     /*
      * @private
      * @var {dict}
@@ -53,7 +53,7 @@ exports.openDragonFilesBase = function(parentIn){
      * @private 
      * @var {object}
      */
-    const csss = new cssBase(this);
+    const css = new cssBase(this);
     /*
      * @private 
      * @var {object}
@@ -72,6 +72,6 @@ exports.openDragonFilesBase = function(parentIn){
     const processor = function(module){
 
 
-    }
-}
+    };
+};
 
