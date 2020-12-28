@@ -1,5 +1,5 @@
 
-'use strict'
+'use strict';
 
 
 exports.svgBase = function(parentIn){
@@ -25,7 +25,7 @@ exports.svgBase = function(parentIn){
      * @private 
      * @var {string}
      */
-    let container = "";
+    let container = '';
     /*
      * @private 
      * @var {dictonary}
@@ -47,5 +47,5 @@ exports.svgBase = function(parentIn){
     let processer = function(){};
 
 
-}
+};
 
